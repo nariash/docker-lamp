@@ -7,9 +7,9 @@
     </head>
     <body>
         <div class="container-fluid">
+            <h1>Bienvenido a la infraestructura LAMP en Docker</h1>
+            <p>Si ves esta página y una tabla a continuación, entonces tu entorno LAMP en Docker funciona correctamente.</p>
             <?php
-                echo "<h1>¡Hola, Antonio te da la bienvenida!</h1>";
-
                 $conn = mysqli_connect('db', 'root', 'test', "dbname");
 
                 $query = 'SELECT * From Person';
